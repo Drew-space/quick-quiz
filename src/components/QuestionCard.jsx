@@ -34,7 +34,7 @@ const QuestionCard = ({
           >
             {selected
               ? Math.round(((current + 1) / total) * 100) + "% complete"
-              : Math.round((current / 100) * 100 * 100) + "% complete"}
+              : Math.round((current / total) * 100) + "% complete"}
           </span>
         </div>
 
